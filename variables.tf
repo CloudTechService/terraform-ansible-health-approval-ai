@@ -15,8 +15,8 @@ variable "common_tags" {
 
 
 
-variable "instance_type" {
-  description = "Prefix for naming convention"
-  type        = string
-  default     = "t2.medium"
-}
+# variable "instance_type" {
+#   description = "Prefix for naming convention"
+#   type        = string
+#   default     = "t3.medium"
+# }

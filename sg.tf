@@ -9,8 +9,8 @@ module "web_server_sg" {
   ingress_rules       = ["https-443-tcp", "http-80-tcp", "ssh-tcp"]
   ingress_with_cidr_blocks = [
     {
-      from_port   = 8000
-      to_port     = 8000
+      from_port   = 5000
+      to_port     = 5000
       protocol    = "tcp"
       description = "User-service ports"
       cidr_blocks = "0.0.0.0/0"
