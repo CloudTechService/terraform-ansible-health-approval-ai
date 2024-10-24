@@ -1,5 +1,5 @@
 variable "env" {
-  default = "qa"
+  default = "prod"
   type    = string
 }
 
